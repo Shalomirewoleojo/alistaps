@@ -1,0 +1,15 @@
+<!-- brands  -->
+<div class="brands">
+    <div class="small-container">
+        <div class="row" style="display: grid; grid-template-columns: repeat(5, 1fr); grid-gap: 0;">
+            {% if brands %}
+                {% for brand in brands %}
+                    <div class="col-5">
+                        <img  style="width: 150px;" src="{{brand.brands.url}}" >
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</div>
+<!-- brands done  -->
