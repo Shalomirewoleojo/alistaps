@@ -79,7 +79,7 @@ def category(request):
         'offer': offer,
     }
 
-    return render (request, 'category.html', context)
+    return render (request, 'categories.html', context)
     # return HttpResponse ('Hey there.')
 
 
